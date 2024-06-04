@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #222;
+    height: 100vh;
+}
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.btnFollow {
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #fff;
+    width: 150px;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+}
+.btnFollow:hover {
+    box-shadow: 0 0 40px #fff;
+}
